@@ -1,0 +1,20 @@
+{
+  "name": "next-js-challenge",
+  "version": "1.0.0",
+  "description": "New JavaScript challenge",
+  "main": "index.js",
+  "scripts": {
+    "test:array": "jest ./sum-array.test.js",
+    "test:palindrome": "jest ./palindrome.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadBiceps/next-js-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadBiceps/next-js-challenge/issues"
+  },
+  "homepage": "https://github.com/MadBiceps/next-js-challenge#readme"
+}
