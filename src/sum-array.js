@@ -6,10 +6,4 @@
  * For example, sumArray([1, 2, 3, 4, 5]) should return 15 (which is 1 + 2 + 3 + 4 + 5), and sumArray([10, 20, 30]) should return 60.
  */
 export function sumArray(arr) {
-  if(arr.length === 0) {
-    return 0
-  } else {
-    const [first, ...rest] = arr
-    return first + sumArray(rest)
-  }
 }
