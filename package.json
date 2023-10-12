@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "New JavaScript challenge",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-    "test:array": "jest ./sum-array.test.js",
-    "test:palindrome": "jest ./palindrome.test.js"
+    "test:array": "jest ./src/sum-array.test.js",
+    "test:palindrome": "jest ./src/palindrome.test.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/MadBiceps/next-js-challenge/issues"
   },
-  "homepage": "https://github.com/MadBiceps/next-js-challenge#readme"
+  "homepage": "https://github.com/MadBiceps/next-js-challenge#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
