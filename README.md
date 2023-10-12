@@ -1,2 +1,2 @@
-# -next-js-challenge
+# next-js-challenge
 New JavaScript challenge
